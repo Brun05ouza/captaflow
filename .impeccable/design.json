@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T04:12:44.683Z",
+  "title": "Design System: CaptaFlow",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Azul CaptaFlow",
+        "tonalRamp": [
+          "oklch(15% 0.0675 263.77)",
+          "oklch(26% 0.1170 263.77)",
+          "oklch(38% 0.1710 263.77)",
+          "oklch(50% 0.1800 263.77)",
+          "oklch(62% 0.1800 263.77)",
+          "oklch(74% 0.1800 263.77)",
+          "oklch(86% 0.1008 263.77)",
+          "oklch(95% 0.0360 263.77)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "primary-hover",
+        "tonalRamp": [
+          "oklch(15% 0.0675 263.50)",
+          "oklch(26% 0.1170 263.50)",
+          "oklch(38% 0.1710 263.50)",
+          "oklch(50% 0.1800 263.50)",
+          "oklch(62% 0.1800 263.50)",
+          "oklch(74% 0.1800 263.50)",
+          "oklch(86% 0.1008 263.50)",
+          "oklch(95% 0.0360 263.50)"
+        ]
+      },
+      "primary-foreground": {
+        "role": "neutral",
+        "displayName": "primary-foreground",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(86% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Violeta de marca",
+        "tonalRamp": [
+          "oklch(15% 0.0675 279.73)",
+          "oklch(26% 0.1170 279.73)",
+          "oklch(38% 0.1710 279.73)",
+          "oklch(50% 0.1800 279.73)",
+          "oklch(62% 0.1800 279.73)",
+          "oklch(74% 0.1800 279.73)",
+          "oklch(86% 0.1008 279.73)",
+          "oklch(95% 0.0360 279.73)"
+        ]
+      },
+      "deep": {
+        "role": "neutral",
+        "displayName": "Deep",
+        "tonalRamp": [
+          "oklch(15% 0.0128 269.56)",
+          "oklch(26% 0.0222 269.56)",
+          "oklch(38% 0.0324 269.56)",
+          "oklch(50% 0.0341 269.56)",
+          "oklch(62% 0.0341 269.56)",
+          "oklch(74% 0.0341 269.56)",
+          "oklch(86% 0.0191 269.56)",
+          "oklch(95% 0.0068 269.56)"
+        ]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Folha fria",
+        "tonalRamp": [
+          "oklch(15% 0.0026 268.55)",
+          "oklch(26% 0.0045 268.55)",
+          "oklch(38% 0.0066 268.55)",
+          "oklch(50% 0.0070 268.55)",
+          "oklch(62% 0.0070 268.55)",
+          "oklch(74% 0.0070 268.55)",
+          "oklch(86% 0.0039 268.55)",
+          "oklch(95% 0.0014 268.55)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Superfície",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(86% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Borda",
+        "tonalRamp": [
+          "oklch(15% 0.0045 259.82)",
+          "oklch(26% 0.0078 259.82)",
+          "oklch(38% 0.0115 259.82)",
+          "oklch(50% 0.0121 259.82)",
+          "oklch(62% 0.0121 259.82)",
+          "oklch(74% 0.0121 259.82)",
+          "oklch(86% 0.0068 259.82)",
+          "oklch(95% 0.0024 259.82)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Texto",
+        "tonalRamp": [
+          "oklch(15% 0.0164 266.42)",
+          "oklch(26% 0.0284 266.42)",
+          "oklch(38% 0.0416 266.42)",
+          "oklch(50% 0.0438 266.42)",
+          "oklch(62% 0.0438 266.42)",
+          "oklch(74% 0.0438 266.42)",
+          "oklch(86% 0.0245 266.42)",
+          "oklch(95% 0.0088 266.42)"
+        ]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Texto secundário",
+        "tonalRamp": [
+          "oklch(15% 0.0131 265.11)",
+          "oklch(26% 0.0228 265.11)",
+          "oklch(38% 0.0333 265.11)",
+          "oklch(50% 0.0350 265.11)",
+          "oklch(62% 0.0350 265.11)",
+          "oklch(74% 0.0350 265.11)",
+          "oklch(86% 0.0196 265.11)",
+          "oklch(95% 0.0070 265.11)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Neutro suave",
+        "tonalRamp": [
+          "oklch(15% 0.0028 260.73)",
+          "oklch(26% 0.0048 260.73)",
+          "oklch(38% 0.0070 260.73)",
+          "oklch(50% 0.0074 260.73)",
+          "oklch(62% 0.0074 260.73)",
+          "oklch(74% 0.0074 260.73)",
+          "oklch(86% 0.0042 260.73)",
+          "oklch(95% 0.0015 260.73)"
+        ]
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "Sucesso",
+        "tonalRamp": [
+          "oklch(15% 0.0453 150.28)",
+          "oklch(26% 0.0785 150.28)",
+          "oklch(38% 0.1147 150.28)",
+          "oklch(50% 0.1208 150.28)",
+          "oklch(62% 0.1208 150.28)",
+          "oklch(74% 0.1208 150.28)",
+          "oklch(86% 0.0676 150.28)",
+          "oklch(95% 0.0242 150.28)"
+        ]
+      },
+      "warning": {
+        "role": "neutral",
+        "displayName": "Atenção",
+        "tonalRamp": [
+          "oklch(15% 0.0471 65.57)",
+          "oklch(26% 0.0816 65.57)",
+          "oklch(38% 0.1192 65.57)",
+          "oklch(50% 0.1255 65.57)",
+          "oklch(62% 0.1255 65.57)",
+          "oklch(74% 0.1255 65.57)",
+          "oklch(86% 0.0703 65.57)",
+          "oklch(95% 0.0251 65.57)"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Perigo",
+        "tonalRamp": [
+          "oklch(15% 0.0675 27.06)",
+          "oklch(26% 0.1170 27.06)",
+          "oklch(38% 0.1710 27.06)",
+          "oklch(50% 0.1800 27.06)",
+          "oklch(62% 0.1800 27.06)",
+          "oklch(74% 0.1800 27.06)",
+          "oklch(86% 0.1008 27.06)",
+          "oklch(95% 0.0360 27.06)"
+        ]
+      },
+      "temperature-hot": {
+        "role": "neutral",
+        "displayName": "temperature-hot",
+        "tonalRamp": [
+          "oklch(15% 0.0620 35.03)",
+          "oklch(26% 0.1075 35.03)",
+          "oklch(38% 0.1572 35.03)",
+          "oklch(50% 0.1655 35.03)",
+          "oklch(62% 0.1655 35.03)",
+          "oklch(74% 0.1655 35.03)",
+          "oklch(86% 0.0927 35.03)",
+          "oklch(95% 0.0331 35.03)"
+        ]
+      },
+      "temperature-warm": {
+        "role": "neutral",
+        "displayName": "temperature-warm",
+        "tonalRamp": [
+          "oklch(15% 0.0520 80.75)",
+          "oklch(26% 0.0902 80.75)",
+          "oklch(38% 0.1318 80.75)",
+          "oklch(50% 0.1387 80.75)",
+          "oklch(62% 0.1387 80.75)",
+          "oklch(74% 0.1387 80.75)",
+          "oklch(86% 0.0777 80.75)",
+          "oklch(95% 0.0277 80.75)"
+        ]
+      },
+      "temperature-cold": {
+        "role": "neutral",
+        "displayName": "temperature-cold",
+        "tonalRamp": [
+          "oklch(15% 0.0322 252.00)",
+          "oklch(26% 0.0557 252.00)",
+          "oklch(38% 0.0815 252.00)",
+          "oklch(50% 0.0857 252.00)",
+          "oklch(62% 0.0857 252.00)",
+          "oklch(74% 0.0857 252.00)",
+          "oklch(86% 0.0480 252.00)",
+          "oklch(95% 0.0171 252.00)"
+        ]
+      },
+      "chart-muted": {
+        "role": "neutral",
+        "displayName": "chart-muted",
+        "tonalRamp": [
+          "oklch(15% 0.0217 265.13)",
+          "oklch(26% 0.0376 265.13)",
+          "oklch(38% 0.0550 265.13)",
+          "oklch(50% 0.0579 265.13)",
+          "oklch(62% 0.0579 265.13)",
+          "oklch(74% 0.0579 265.13)",
+          "oklch(86% 0.0324 265.13)",
+          "oklch(95% 0.0116 265.13)"
+        ]
+      },
+      "chart-light": {
+        "role": "neutral",
+        "displayName": "chart-light",
+        "tonalRamp": [
+          "oklch(15% 0.0122 264.39)",
+          "oklch(26% 0.0212 264.39)",
+          "oklch(38% 0.0310 264.39)",
+          "oklch(50% 0.0326 264.39)",
+          "oklch(62% 0.0326 264.39)",
+          "oklch(74% 0.0326 264.39)",
+          "oklch(86% 0.0183 264.39)",
+          "oklch(95% 0.0065 264.39)"
+        ]
+      },
+      "sidebar-muted": {
+        "role": "neutral",
+        "displayName": "sidebar-muted",
+        "tonalRamp": [
+          "oklch(15% 0.0130 262.65)",
+          "oklch(26% 0.0224 262.65)",
+          "oklch(38% 0.0328 262.65)",
+          "oklch(50% 0.0345 262.65)",
+          "oklch(62% 0.0345 262.65)",
+          "oklch(74% 0.0345 262.65)",
+          "oklch(86% 0.0193 262.65)",
+          "oklch(95% 0.0069 262.65)"
+        ]
+      },
+      "sidebar-border": {
+        "role": "neutral",
+        "displayName": "sidebar-border",
+        "tonalRamp": [
+          "oklch(15% 0.0164 265.89)",
+          "oklch(26% 0.0285 265.89)",
+          "oklch(38% 0.0416 265.89)",
+          "oklch(50% 0.0438 265.89)",
+          "oklch(62% 0.0438 265.89)",
+          "oklch(74% 0.0438 265.89)",
+          "oklch(86% 0.0246 265.89)",
+          "oklch(95% 0.0088 265.89)"
+        ]
+      },
+      "sidebar-active": {
+        "role": "neutral",
+        "displayName": "sidebar-active",
+        "tonalRamp": [
+          "oklch(15% 0.0162 263.55)",
+          "oklch(26% 0.0282 263.55)",
+          "oklch(38% 0.0412 263.55)",
+          "oklch(50% 0.0433 263.55)",
+          "oklch(62% 0.0433 263.55)",
+          "oklch(74% 0.0433 263.55)",
+          "oklch(86% 0.0243 263.55)",
+          "oklch(95% 0.0087 263.55)"
+        ]
+      },
+      "hot-bg": {
+        "role": "neutral",
+        "displayName": "hot-bg",
+        "tonalRamp": [
+          "oklch(15% 0.0071 46.81)",
+          "oklch(26% 0.0122 46.81)",
+          "oklch(38% 0.0179 46.81)",
+          "oklch(50% 0.0188 46.81)",
+          "oklch(62% 0.0188 46.81)",
+          "oklch(74% 0.0188 46.81)",
+          "oklch(86% 0.0105 46.81)",
+          "oklch(95% 0.0038 46.81)"
+        ]
+      },
+      "warm-bg": {
+        "role": "neutral",
+        "displayName": "warm-bg",
+        "tonalRamp": [
+          "oklch(15% 0.0108 89.57)",
+          "oklch(26% 0.0187 89.57)",
+          "oklch(38% 0.0274 89.57)",
+          "oklch(50% 0.0288 89.57)",
+          "oklch(62% 0.0288 89.57)",
+          "oklch(74% 0.0288 89.57)",
+          "oklch(86% 0.0161 89.57)",
+          "oklch(95% 0.0058 89.57)"
+        ]
+      },
+      "cold-bg": {
+        "role": "neutral",
+        "displayName": "cold-bg",
+        "tonalRamp": [
+          "oklch(15% 0.0053 254.60)",
+          "oklch(26% 0.0092 254.60)",
+          "oklch(38% 0.0135 254.60)",
+          "oklch(50% 0.0142 254.60)",
+          "oklch(62% 0.0142 254.60)",
+          "oklch(74% 0.0142 254.60)",
+          "oklch(86% 0.0080 254.60)",
+          "oklch(95% 0.0028 254.60)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Narrativa de autenticação desktop."
+      },
+      "headline": {
+        "displayName": "Título de página",
+        "purpose": "Cabeçalho operacional."
+      },
+      "title": {
+        "displayName": "Título de seção",
+        "purpose": "Seções gerais; painéis possuem ajuste local."
+      },
+      "body": {
+        "displayName": "Corpo",
+        "purpose": "Texto de interface."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Labels persistentes de formulário."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dialog",
+        "value": "0 20px 80px rgb(11 16 32 / 0.2)",
+        "purpose": "Elevação do modal."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Diálogos e chegada Live."
+      },
+      {
+        "name": "state",
+        "value": "160ms",
+        "purpose": "Cor e fundo de botão."
+      },
+      {
+        "name": "dialog-fade",
+        "value": "180ms",
+        "purpose": "Fade do overlay e conteúdo."
+      },
+      {
+        "name": "live-arrival",
+        "value": "220ms",
+        "purpose": "Chegada de entradas e realce Live."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "360px"
+      },
+      {
+        "name": "stacked-grids",
+        "value": "950px"
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "1023px"
+      },
+      {
+        "name": "desktop-dashboard",
+        "value": "1024px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1200px"
+      },
+      {
+        "name": "wide",
+        "value": "1600px"
+      }
+    ],
+    "notes": [
+      "Tonal ramps são derivados sintéticos em OKLCH para o painel; não são tokens CSS implementados nem ampliam a paleta normativa.",
+      "Snippets usam as variáveis CSS reais herdadas; não duplicam primitivos do frontmatter.",
+      "Estado registrado por fonte; evidências visuais existentes não equivalem a comp aprovado."
+    ],
+    "focus": [
+      {
+        "name": "visible-outline",
+        "value": "2px solid var(--ring); outline-offset: 3px",
+        "purpose": "Foco visível global; extensão de estado."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão Primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Variante do botão existente; confirmação destrutiva pertence ao fluxo.",
+      "html": "<button class=\"ds-component ds-button-primary\">Salvar alterações</button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:7px;padding:9px 15px;min-height:40px;font-family:var(--font-geist,Geist),sans-serif;font-size:13px;font-weight:500;line-height:20px;white-space:nowrap;transition:background 160ms,color 160ms;cursor:pointer;background:var(--primary);color:var(--primary-foreground);border-color:transparent}@media(hover:hover) and (pointer:fine){.ds-button-primary:hover{background:var(--primary-hover)}}.ds-button-primary:active{opacity:.8}.ds-button-primary:disabled{opacity:.55;cursor:wait}.ds-component:focus-visible{outline:2px solid var(--ring);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+    },
+    {
+      "name": "Botão Contorno",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Variante do botão existente; confirmação destrutiva pertence ao fluxo.",
+      "html": "<button class=\"ds-component ds-button-outline\">Salvar alterações</button>",
+      "css": ".ds-button-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:7px;padding:9px 15px;min-height:40px;font-family:var(--font-geist,Geist),sans-serif;font-size:13px;font-weight:500;line-height:20px;white-space:nowrap;transition:background 160ms,color 160ms;cursor:pointer;background:var(--surface);color:var(--foreground);border-color:var(--border)}@media(hover:hover) and (pointer:fine){.ds-button-outline:hover{background:var(--muted)}}.ds-button-outline:active{opacity:.8}.ds-button-outline:disabled{opacity:.55;cursor:wait}.ds-component:focus-visible{outline:2px solid var(--ring);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-button-outline{transition:none}}"
+    },
+    {
+      "name": "Botão Ghost",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Variante do botão existente; confirmação destrutiva pertence ao fluxo.",
+      "html": "<button class=\"ds-component ds-button-ghost\">Salvar alterações</button>",
+      "css": ".ds-button-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:7px;padding:9px 15px;min-height:40px;font-family:var(--font-geist,Geist),sans-serif;font-size:13px;font-weight:500;line-height:20px;white-space:nowrap;transition:background 160ms,color 160ms;cursor:pointer;background:transparent;color:var(--muted-foreground);border-color:transparent}@media(hover:hover) and (pointer:fine){.ds-button-ghost:hover{background:var(--muted)}}.ds-button-ghost:active{opacity:.8}.ds-button-ghost:disabled{opacity:.55;cursor:wait}.ds-component:focus-visible{outline:2px solid var(--ring);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-button-ghost{transition:none}}"
+    },
+    {
+      "name": "Botão Perigo",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Variante do botão existente; confirmação destrutiva pertence ao fluxo.",
+      "html": "<button class=\"ds-component ds-button-danger\">Excluir</button>",
+      "css": ".ds-button-danger{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:7px;padding:9px 15px;min-height:40px;font-family:var(--font-geist,Geist),sans-serif;font-size:13px;font-weight:500;line-height:20px;white-space:nowrap;transition:background 160ms,color 160ms;cursor:pointer;background:var(--danger);color:var(--surface);border-color:transparent}.ds-button-danger:active{opacity:.8}.ds-button-danger:disabled{opacity:.55;cursor:wait}.ds-component:focus-visible{outline:2px solid var(--ring);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-button-danger{transition:none}}"
+    },
+    {
+      "name": "Campo com label",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Label persistente; erro adjacente e aria-invalid.",
+      "html": "<label class=\"ds-field\">Nome<input class=\"ds-component ds-input\" placeholder=\"Nome do lead\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:7px;font-family:var(--font-geist,Geist),sans-serif;font-size:12px;font-weight:500;color:var(--foreground)}.ds-input{border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--foreground);padding:9px 12px;min-height:40px;font:400 14px/1.5 var(--font-geist,Geist),sans-serif;caret-color:var(--primary)}.ds-input::placeholder{color:#7a8496}.ds-input[aria-invalid=\"true\"]{border-color:var(--danger)}.ds-component:focus-visible{outline:2px solid var(--ring);outline-offset:3px}"
+    },
+    {
+      "name": "Navegação ativa",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Item ativo na sidebar Deep desktop.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-component ds-nav-item\" href=\"#\" aria-current=\"page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/></svg>Visão geral</a></nav>",
+      "css": ".ds-nav{padding:16px;background:var(--deep)}.ds-nav-item{display:flex;align-items:center;gap:11px;min-height:43px;padding:9px 10px;border-radius:6px;background:var(--sidebar-active);color:var(--surface);text-decoration:none;font:400 12px/1.5 var(--font-geist,Geist),sans-serif}.ds-nav-item svg{color:#90acff}@media(hover:hover) and (pointer:fine){.ds-nav-item:hover{background:var(--sidebar-active);color:var(--surface)}}.ds-component:focus-visible{outline:2px solid var(--ring);outline-offset:3px}"
+    },
+    {
+      "name": "Prioridade alta (tom de gráfico)",
+      "kind": "chip",
+      "description": "Estado informativo com texto e ponto, sem interação.",
+      "html": "<span class=\"ds-temperature\"><i></i>Quente</span>",
+      "css": ".ds-temperature{display:inline-flex;align-items:center;gap:5px;padding:3px 7px;border-radius:4px;background:var(--hot-bg);color:#a33d23;font:500 11px/1.5 var(--font-geist,Geist),sans-serif;white-space:nowrap}.ds-temperature i{width:4px;height:4px;border-radius:50%;background:currentColor}"
+    },
+    {
+      "name": "Painel operacional",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Container plano; padding é definido pelo conteúdo.",
+      "html": "<section class=\"ds-panel\"><header class=\"ds-panel-heading\"><h2>Leads recentes</h2></header></section>",
+      "css": ".ds-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);min-width:0;overflow:hidden;font-family:var(--font-geist,Geist),sans-serif;color:var(--foreground)}.ds-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px 14px}.ds-panel-heading h2{margin:0;font-size:14px;font-weight:600;line-height:1.4;letter-spacing:-.015em}"
+    },
+    {
+      "name": "Símbolo de fluxo",
+      "kind": "custom",
+      "description": "Marca vetorial existente; trajetórias convergentes em seta.",
+      "html": "<svg class=\"ds-mark\" width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" aria-label=\"CaptaFlow\" role=\"img\"><path d=\"M5 8H14L24 18L14 28H5\" stroke=\"currentColor\" stroke-width=\"4.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M5 18H30M24 12L30 18L24 24\" stroke=\"currentColor\" stroke-width=\"4.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+      "css": ".ds-mark{color:var(--primary);flex-shrink:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Fluxo comercial",
+    "overview": "O CaptaFlow reúne captação, classificação explicável e ação comercial. A identidade é o símbolo vetorial de trajetórias que convergem em uma seta, com a palavra captaflow. A interface de operação usa sidebar Deep, folha clara e azul para ação e dados. Geist mantém continuidade entre navegação, formulários e leitura numérica.\n\nEste registro deriva de `src/app/globals.css` e dos componentes atuais. A direção é Operate, code-led, conforme `.impeccable/direction-contract.md`; não há comp aprovado. O briefing e as decisões explícitas do usuário prevalecem sobre recomendações estéticas. A área de IA comunica preparação, sem análises ou respostas simuladas.",
+    "keyCharacteristics": [
+      "Sidebar escura e conteúdo claro, com superfícies planas delimitadas por bordas.",
+      "Símbolo próprio de fluxo e azul como acento operacional.",
+      "Densidade de CRM, números tabulares e prioridade comercial acompanhada de texto.",
+      "Feedback breve, foco visível e navegação alternativa ao arrastar."
+    ],
+    "rules": [
+      {
+        "name": "The Estado Legível Rule",
+        "body": "Cor acompanha texto ou outra indicação identificável; prioridade e etapa não dependem apenas da cor.",
+        "section": "colors"
+      },
+      {
+        "name": "The Uma Voz Rule",
+        "body": "Preserve Geist e a hierarquia existente entre ação, título e dado; a marca distingue pesos dentro da mesma palavra.",
+        "section": "typography"
+      },
+      {
+        "name": "The Plano na Operação Rule",
+        "body": "Use borda e superfície para containers comuns; reserve a sombra existente para o diálogo elevado.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preservar sidebar Deep, fundo claro, Geist e símbolo próprio de fluxo.",
+      "**Do** aplicar azul a ações e dados e acompanhar estados semânticos com texto.",
+      "**Do** manter foco visível, labels persistentes, scroll local de tabelas e redução de movimento.",
+      "**Do** identificar a classificação por regras e a IA em preparação com linguagem verdadeira."
+    ],
+    "donts": [
+      "**Don't** introduzir gradientes decorativos, ícones em quadrados coloridos ou crescimento sem base.",
+      "**Don't** embutir números fictícios no dashboard ou publicar contatos no modo de apresentação.",
+      "**Don't** simular respostas de IA ou apresentar a área standby como análise ativa.",
+      "**Don't** promover ajustes locais de densidade do dashboard a regras globais."
+    ]
+  }
+}

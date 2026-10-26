@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env*
+!.env.example
+playwright-report/
+test-results/
+*.tsbuildinfo
+.neon
+.taste-skill/
+.impeccable/*
+!.impeccable/design.json
+!.impeccable/direction-contract.md
+artifacts/
+
